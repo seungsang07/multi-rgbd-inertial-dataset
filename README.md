@@ -122,10 +122,7 @@ If you use this dataset, please cite our RA-L 2025 paper:
 
 ```
 
-## 8. Contact
-For any questions or issues, please contact **Seungsang Yun** at <seungsang@snu.ac.kr>.
-
-## 9. Acknowledgement
+## 8. Acknowledgement
 We are deeply grateful to Hyundai Motor Group for their close collaboration and generous support throughout this project.
 
 <p align="center">
@@ -134,3 +131,7 @@ We are deeply grateful to Hyundai Motor Group for their close collaboration and 
   <img src="figures/snu.png"    width="180" alt="Seoul National University">&nbsp;&nbsp;&nbsp;
   <img src="figures/hyundai.svg" width="260" alt="Hyundai Motor Group">
 </p>
+
+
+## 9. Contact
+For any questions or issues, please contact **Seungsang Yun** at <seungsang@snu.ac.kr>.
