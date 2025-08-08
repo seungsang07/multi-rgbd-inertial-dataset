@@ -1,9 +1,8 @@
 # Multi-RGB-D Cameras and Inertial Dataset (with Hyundai Motor Group)
 
-**A comprehensive collection of time-synchronized RGB-D, IMU, and LiDAR recordings captured by four Intel RealSense D455 cameras, a MicroStrain GX5-25 IMU, and an Ouster-64 LiDAR. Covering 360° non-overlapping views and diverse indoor/outdoor scenarios, this dataset enables research on confidence-driven multi-camera odometry, depth fusion, and scale-consistent VIO/SLAM.**
+**A comprehensive collection of time-synchronized RGB-D with IMU and LiDAR recordings captured by four Intel RealSense D455 cameras, a MicroStrain GX5-25 IMU, and an Ouster-64 LiDAR. Covering 360° non-overlapping views and diverse indoor/outdoor scenarios, this dataset enables research on confidence-driven multi-camera odometry, depth fusion, and scale-consistent VIO/SLAM.**
 
-<sup>Created in collaboration with Hyundai Motor Group and released alongside our RA-L 2025 paper  
-“The More The Better? Confidence-Driven Residual Weighting and Depth Fusion for Multi-RGB-D Inertial Odometry.”</sup>
+<sup>Created in collaboration with Hyundai Motor Group and released alongside our RA-L 2025 paper below.</sup>
 
 
 <div align="center">
@@ -18,7 +17,7 @@
 
 [[`Paper PDF`](https://arxiv.org/abs/xxxxx)] [[`Project Video`](https://youtu.be/xxxxxxxx)] [[`BibTeX`](#citation)]
 
-<img src="figures/main1.png" width="600">
+<img src="figures/main1.png" width="500">
 <img src="figures/main2.png" width="480">
 
 </div>
@@ -32,9 +31,8 @@
 * **Synchronized multi-sensor suite** – four hardware-triggered Intel RealSense D455 RGB-D cameras and a IMU
 * **360° non-overlapping coverage** – front, back, left, and right views enable true multi-camera VO/VIO/SLAM research  
 * **Challenging scenarios** – sequences include strong glare, low-light, texture-less walls, and dynamic occlusion in both indoor and outdoor environments  
-* **Accurate ground truth** – LiDAR-IMU SLAM
-* **Complete calibration package** – intrinsics, extrinsics, and camera-to-IMU transforms provided  
-* **Research-ready formats** – ROS bag files, CSV ground truth, and open-source evaluation scripts for immediate benchmarking
+* **Complete calibration package** – intrinsics, extrinsics, and camera-to-IMU SE3 transforms provided  
+* **Research-ready formats** – ROS bag files, ground truth
 
 
 
@@ -65,13 +63,15 @@ All images and depth frames are hardware-triggered.
 ## 4. Sequences
 | ID         | Length        | Challenges (✓)                               | Dataset |
 |------------|---------------|----------------------------------------------|---------|
-| `indoor`   | 100 m / 104 s | corridor, moderate texture                  | [link](https://example.com/indoor.bag) |
-| `indoor2`  |  69 m / 159 s | spacious indoor, occlusion ✓                | [link](https://example.com/indoor2.bag) |
-| `glare`    |  45 m / 155 s | strong sunlight glare ✓                     | [link](https://example.com/glare.bag) |
-| `txl`      |  68 m / 150 s | texture-less walls ✓ glare ✓ dark ✓         | [link](https://example.com/txl.bag) |
-| `occ`      |  67 m / 146 s | front-camera occlusion ✓                    | [link](https://example.com/occ.bag) |
-| `dark`     |  73 m / 169 s | low light, large rotations ✓ texture-less ✓ | [link](https://example.com/dark.bag) |
-| **calib**  | –             | intrinsics & extrinsics                     | [link](https://example.com/calibration.zip) |
+| `indoor`   | 100 m / 104 s | corridor, moderate texture                  | [link](https://drive.google.com/file/d/1MD2zmZHPLW_h_ONGBlc0HLY_2cVlbXYY/view?usp=drive_link) |
+| `indoor2`  |  69 m / 159 s | spacious indoor, occlusion ✓                | [link](https://drive.google.com/file/d/11RcQbHpIhMuoP6TgFiVBIgByrNC5rhe0/view?usp=drive_link) |
+| `glare`    |  45 m / 155 s | strong sunlight glare ✓                     | [link](https://drive.google.com/file/d/1ylb_0hbAf5sT-TQ_eUID4nAHQw7wPhRe/view?usp=drive_link) |
+| `txl`      |  68 m / 150 s | texture-less walls ✓ glare ✓ dark ✓         | [link](https://drive.google.com/file/d/1FvlKwXq3G0CIpHw0hlqjLOmNkvrGJI1p/view?usp=drive_link) |
+| `occ`      |  67 m / 146 s | front-camera occlusion ✓                    | [link](https://drive.google.com/file/d/1EiEpvv4hF2UT27MViXXgsQWq4u4SN_ps/view?usp=drive_link) |
+| `dark`     |  73 m / 169 s | low light, large rotations ✓ texture-less ✓ | [link](https://drive.google.com/file/d/17RmePdUHBrZfHKipVJ0AJ7hp3bsrU79a/view?usp=drive_link) |
+| **Calibration**  | –             | intrinsics & extrinsics               | [link](https://drive.google.com/file/d/1cK73j_JzyYdibqS_YILAjq_acHM0JYke/view?usp=drive_link) |
+| **Ground truth**| –             | LiDAR-IMU SLAM trajectories (tum foramt)| [link](https://drive.google.com/file/d/1bQqDPedCUnpDyaIooqLUek4Sh8zu3D78/view?usp=drive_link) |
+
 
 ---
 ## 5. Example of Multi-camera images
@@ -108,7 +108,7 @@ All images and depth frames are hardware-triggered.
 If you use this dataset, please cite our RA-L 2025 paper:
 
 ```bibtex
-@article{yun2025more,
+@article{yun2025multicam,
   title   = {The More The Better? Confidence-Driven Residual Weighting and Depth Fusion for Multi-RGB-D Inertial Odometry},
   author  = {Yun, Seungsang and Shin, Jaeho and Cha, Jaekwang and Kim, Ayoung},
   journal = {IEEE Robotics and Automation Letters},
@@ -129,8 +129,7 @@ We are deeply grateful to Hyundai Motor Group for their close collaboration and 
 
 <p align="center">
   <a href="https://www.hyundaimotorgroup.com">
-    <img src="figures/hyundai.svg" width="220" alt="Hyundai Motor Group">
-  </a>&nbsp;&nbsp;&nbsp;
-  <img src="figures/snu.png"    width="170" alt="Seoul National University">&nbsp;&nbsp;&nbsp;
-  <img src="figures/rpm.png"    width="150" alt="RPM Robotics Lab">
+  <img src="figures/rpm.png"    width="130" alt="RPM Robotics Lab">
+  <img src="figures/snu.png"    width="180" alt="Seoul National University">&nbsp;&nbsp;&nbsp;
+  <img src="figures/hyundai.svg" width="260" alt="Hyundai Motor Group">
 </p>
