@@ -17,8 +17,8 @@
 
 [[`Paper PDF`](https://arxiv.org/abs/xxxxx)] [[`Project Video`](https://youtu.be/xxxxxxxx)] [[`BibTeX`](#citation)]
 
-<img src="figures/main1.png" width="500">
-<img src="figures/main2.png" width="480">
+<img src="figures/main1.png" width="450">
+<img src="figures/main2.png" width="400">
 
 </div>
 
