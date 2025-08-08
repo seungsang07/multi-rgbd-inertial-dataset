@@ -61,7 +61,7 @@
 All images and depth frames are hardware-triggered.
 
 
-## 4. Sequences
+## 4. Sequences(The link will be accessible shortly.)
 | ID         | Length        | Challenges (✓)                               | Dataset |
 |------------|---------------|----------------------------------------------|---------|
 | `indoor`   | 100 m / 104 s | corridor, moderate texture                  | [link](https://drive.google.com/file/d/1MD2zmZHPLW_h_ONGBlc0HLY_2cVlbXYY/view?usp=drive_link) |
