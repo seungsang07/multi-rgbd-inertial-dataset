@@ -39,7 +39,8 @@
 ## 2. Sensor Suite
 
 <p align="center">
-  <img src="figures/sensor_system.png" width="60%" alt="Sensor suite diagram">
+  <img src="figures/sensors.png" width="15%" alt="Sensor suite diagram">
+  <img src="figures/sensor_system.png" width="70%" alt="Sensor suite diagram">
 </p>
 
 | Component | Model | Rate | Notes |
