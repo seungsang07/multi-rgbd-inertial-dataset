@@ -125,11 +125,11 @@ If you use this dataset, please cite our RA-L 2025 paper:
 ## 8. Acknowledgement
 We are deeply grateful to Hyundai Motor Group for their close collaboration and generous support throughout this project.
 
-<p align="center">
+<p align="left">
   <a href="https://www.hyundaimotorgroup.com">
-  <img src="figures/rpm.png"    width="130" alt="RPM Robotics Lab">
-  <img src="figures/snu.png"    width="180" alt="Seoul National University">&nbsp;&nbsp;&nbsp;
-  <img src="figures/hyundai.svg" width="260" alt="Hyundai Motor Group">
+  <img src="figures/rpm.png"    width="90" alt="RPM Robotics Lab">
+  <img src="figures/snu.png"    width="120" alt="Seoul National University">&nbsp;&nbsp;&nbsp;
+  <img src="figures/hyundai.svg" width="140" alt="Hyundai Motor Group">
 </p>
 
 
