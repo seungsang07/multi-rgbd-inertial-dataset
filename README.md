@@ -13,7 +13,7 @@
 
 <sup>Seoul National University / Hyundai Motor Group Robotics Lab</sup>
 
-**RA-L 2025 (to appear at ICRA 2025)**
+**RA-L 2025 (to appear at ICRA 2026)**
 
 [[`Paper PDF`](https://arxiv.org/abs/xxxxx)] [[`Project Video`](https://youtu.be/xxxxxxxx)] [[`BibTeX`](#citation)]
 
