@@ -46,7 +46,7 @@
 | Component | Model | Rate | Notes |
 |-----------|-------|------|-------|
 | **RGB-D cameras (×4)** | Intel RealSense D455 | 640 × 360 @ 30 Hz | Front / Left / Right / Back (non-overlapping FOV) |
-| **IMU** | MicroStrain 3DM-GX5-25 | 100 Hz | Hardware-synchronized to cameras |
+| **IMU** | MicroStrain 3DM-GX5-25 | 100 Hz |  |
 | **LiDAR** | Ouster-64 | 10 Hz | Provides ground-truth via LiDAR-Inertial SLAM |
 
 ---
