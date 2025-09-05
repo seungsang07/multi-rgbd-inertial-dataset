@@ -1,8 +1,8 @@
-# Multi-RGB-D Cameras and Inertial Dataset (with Hyundai Motor Group)
+# Multi-RGB-D Cameras and Inertial Dataset (with Hyundai Motor Company)
 
 **A comprehensive collection of time-synchronized RGB-D with IMU and LiDAR recordings captured by four Intel RealSense D455 cameras, a MicroStrain GX5-25 IMU, and an Ouster-64 LiDAR. Covering 360° non-overlapping views and diverse indoor/outdoor scenarios, this dataset enables research on confidence-driven multi-camera odometry, depth fusion, and scale-consistent VIO/SLAM.**
 
-<sup>Created in collaboration with Hyundai Motor Group and released alongside our RA-L 2025 paper below.</sup>
+<sup>Created in collaboration with Hyundai Motor Company and released alongside our RA-L 2025 paper below.</sup>
 
 
 <div align="center">
@@ -11,11 +11,11 @@
 
 [**Seungsang Yun**](#) · [**Jaeho Shin**](#) · [**Jaekwang Cha**](#) · [**Ayoung Kim**](#*)
 
-<sup>Seoul National University / Hyundai Motor Group Robotics Lab</sup>
+<sup>Seoul National University / Hyundai Motor Company</sup>
 
 **RA-L 2025 (to appear at ICRA 2026)**
 
-[[`Paper PDF`](https://arxiv.org/abs/xxxxx)] [[`Project Video`](https://youtu.be/xxxxxxxx)] [[`BibTeX`](#citation)]
+[[`Paper PDF`](https://ieeexplore.ieee.org/abstract/document/11130931)] [[`Project Video`](https://www.youtube.com/watch?v=eTlhmUA6c64)] [[`BibTeX`](#citation)]
 
   <img src="figures/main1.png" width="48%" alt="Main figure 1">
   <img src="figures/main2.png" width="48%" alt="Main figure 2">
@@ -109,27 +109,29 @@ All images and depth frames are hardware-triggered.
 If you use this dataset, please cite our RA-L 2025 paper:
 
 ```bibtex
-@article{yun2025multicam,
-  title   = {The More The Better? Confidence-Driven Residual Weighting and Depth Fusion for Multi-RGB-D Inertial Odometry},
-  author  = {Yun, Seungsang and Shin, Jaeho and Cha, Jaekwang and Kim, Ayoung},
-  journal = {IEEE Robotics and Automation Letters},
-  year    = {2025},
-  volume  = {TBD},
-  number  = {TBD},
-  pages   = {TBD},
-  doi     = {TBD}
-}
+@ARTICLE{11130931,
+  author={Yun, Seungsang and Shin, Jaeho and Cha, Jaekwang and Kim, Ayoung},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={The More the Better? Confidence-Driven Residual Weighting and Depth Fusion for Multi-RGB-D Inertial Odometry}, 
+  year={2025},
+  volume={10},
+  number={10},
+  pages={10402-10409},
+  keywords={Cameras;Odometry;Real-time systems;Optimization;Tracking;Filtering;Vectors;Robot vision systems;Pose estimation;Pipelines;RGB-D Inertial odometry;multi-camera SLAM},
+  doi={10.1109/LRA.2025.3601033}
+  }
+
 
 ```
 
 ## 8. Acknowledgement
-We are deeply grateful to Hyundai Motor Group for their close collaboration and generous support throughout this project.
+We are deeply grateful to Hyundai Motor Company for their close collaboration and generous support throughout this project.
 
 <p align="left">
   <a href="https://www.hyundaimotorgroup.com">
   <img src="figures/rpm.png"    width="90" alt="RPM Robotics Lab">
   <img src="figures/snu.png"    width="120" alt="Seoul National University">&nbsp;&nbsp;&nbsp;
-  <img src="figures/hyundai.svg" width="140" alt="Hyundai Motor Group">
+  <img src="figures/hyundai.svg" width="140" alt="Hyundai Motor Company">
 </p>
 
 
